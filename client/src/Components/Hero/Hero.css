@@ -1,0 +1,45 @@
+.hero{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hero-left h2{
+  color: #090909;
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.hero-left h3{
+  color: #171717;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+.hero-latest-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 310px;
+  height: 70px;
+  border-radius: 75px;
+  margin-top: 30px;
+  background: #E25137;
+  color: white;
+  font-size: 22px;
+  font-weight: 500
+}
+
+.hero-right{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image{
+  width: 600px;
+  height: 600px;
+}
